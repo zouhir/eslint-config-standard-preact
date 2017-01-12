@@ -10,7 +10,9 @@
 [downloads-image]: https://img.shields.io/npm/dm/eslint-config-standard-preact.svg
 [downloads-url]: https://npmjs.org/package/eslint-config-standard-preact
 
-#### An ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-configs) for Preact/JSX support in [JavaScript Standard Style](https://github.com/feross/standard)
+#### An ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-configs) for Preact/JSX support in [JavaScript Standard Style](https://github.com/feross/standard).
+
+Preact is gaining a lot of traction and this module is a fork of [feross/eslint-config-standard-preact](https://github.com/feross/eslint-config-standard-react)
 
 This module is for advanced users. You probably want to use [`standard`](https://github.com/feross/standard) instead :)
 

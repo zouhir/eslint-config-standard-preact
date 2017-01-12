@@ -13,23 +13,23 @@
 7 silly cache add   rawSpec: '.',
 7 silly cache add   spec: '/Users/zouhir/Projects/eslint-config-standard-preact',
 7 silly cache add   type: 'directory' }
-8 verbose addLocalDirectory /Users/zouhir/.npm/eslint-config-standard-preact/0.8.0/package.tgz not in flight; packing
+8 verbose addLocalDirectory /Users/zouhir/.npm/eslint-config-standard-preact/0.8.1/package.tgz not in flight; packing
 9 verbose correctMkdir /Users/zouhir/.npm correctMkdir not in flight; initializing
-10 info lifecycle eslint-config-standard-preact@0.8.0~prepublish: eslint-config-standard-preact@0.8.0
-11 silly lifecycle eslint-config-standard-preact@0.8.0~prepublish: no script for prepublish, continuing
-12 verbose tar pack [ '/Users/zouhir/.npm/eslint-config-standard-preact/0.8.0/package.tgz',
+10 info lifecycle eslint-config-standard-preact@0.8.1~prepublish: eslint-config-standard-preact@0.8.1
+11 silly lifecycle eslint-config-standard-preact@0.8.1~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ '/Users/zouhir/.npm/eslint-config-standard-preact/0.8.1/package.tgz',
 12 verbose tar pack   '/Users/zouhir/Projects/eslint-config-standard-preact' ]
-13 verbose tarball /Users/zouhir/.npm/eslint-config-standard-preact/0.8.0/package.tgz
+13 verbose tarball /Users/zouhir/.npm/eslint-config-standard-preact/0.8.1/package.tgz
 14 verbose folder /Users/zouhir/Projects/eslint-config-standard-preact
-15 verbose addLocalTarball adding from inside cache /Users/zouhir/.npm/eslint-config-standard-preact/0.8.0/package.tgz
+15 verbose addLocalTarball adding from inside cache /Users/zouhir/.npm/eslint-config-standard-preact/0.8.1/package.tgz
 16 verbose correctMkdir /Users/zouhir/.npm correctMkdir not in flight; initializing
-17 silly cache afterAdd eslint-config-standard-preact@0.8.0
-18 verbose afterAdd /Users/zouhir/.npm/eslint-config-standard-preact/0.8.0/package/package.json not in flight; writing
+17 silly cache afterAdd eslint-config-standard-preact@0.8.1
+18 verbose afterAdd /Users/zouhir/.npm/eslint-config-standard-preact/0.8.1/package/package.json not in flight; writing
 19 verbose correctMkdir /Users/zouhir/.npm correctMkdir not in flight; initializing
-20 verbose afterAdd /Users/zouhir/.npm/eslint-config-standard-preact/0.8.0/package/package.json written
+20 verbose afterAdd /Users/zouhir/.npm/eslint-config-standard-preact/0.8.1/package/package.json written
 21 silly publish { name: 'eslint-config-standard-preact',
 21 silly publish   description: 'JavaScript Standard Style Preact/JSX support - ESLint Shareable Config',
-21 silly publish   version: '0.8.0',
+21 silly publish   version: '0.8.1',
 21 silly publish   author:
 21 silly publish    { name: 'Zouhir Chahoud',
 21 silly publish      email: 'zouhir@zouhir.org',
@@ -76,9 +76,9 @@
 21 silly publish   scripts: { test: 'tape test/*.js' },
 21 silly publish   readme: '# Standard [Preact](https://preactjs.com/) - ESLint Shareable Config\n[![travis][travis-image]][travis-url]\n[![npm][npm-image]][npm-url]\n[![downloads][downloads-image]][downloads-url]\n\n[travis-image]: https://travis-ci.org/zouhir/eslint-config-standard-preact.svg?branch=master\n[travis-url]: https://travis-ci.org/zouhir/eslint-config-standard-preact\n[npm-image]: https://img.shields.io/npm/v/eslint-config-standard-preact.svg\n[npm-url]: https://npmjs.org/package/eslint-config-standard-preact\n[downloads-image]: https://img.shields.io/npm/dm/eslint-config-standard-preact.svg\n[downloads-url]: https://npmjs.org/package/eslint-config-standard-preact\n\n#### An ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-configs) for Preact/JSX support in [JavaScript Standard Style](https://github.com/feross/standard)\n\nThis module is for advanced users. You probably want to use [`standard`](https://github.com/feross/standard) instead :)\n\n[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)\n\n## Install\n\n```bash\nnpm install eslint-config-standard-preact\n```\n\n## Usage\n\nShareable configs are designed to work with the `extends` feature of `.eslintrc` files.\nYou can learn more about\n[Shareable Configs](http://eslint.org/docs/developer-guide/shareable-configs) on the\nofficial ESLint website.\n\nThis Shareable Config adds React and JSX to the baseline JavaScript Standard Style rules\nprovided in `eslint-config-standard`.\n\nHere\'s how to install everything you need:\n\n```bash\nnpm install --save-dev eslint-config-standard eslint-config-standard-preact eslint-plugin-promise eslint-plugin-react eslint-plugin-standard\n```\n\nThen, add this to your .eslintrc file:\n\n```\n{\n  "extends": ["standard", "standard-react"]\n}\n```\n\n*Note: We omitted the `eslint-config-` prefix since it is automatically assumed by ESLint.*\n\nYou can override settings from the shareable config by adding them directly into your\n`.eslintrc` file.\n\n### Looking for something easier than this?\n\nThe easiest way to use JavaScript Standard Style to check your code is to use the\n[`standard`](https://github.com/feross/standard) package. This comes with a global\nNode command line program (`standard`) that you can run or add to your `npm test` script\nto quickly check your style.\n\n## Badge\n\nUse this in one of your projects? Include one of these badges in your readme to\nlet people know that your code is using the standard style.\n\n[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)\n\n```markdown\n[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)\n```\n\n[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](https://github.com/feross/standard)\n\n```markdown\n[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](https://github.com/feross/standard)\n```\n\n## Learn more\n\nFor the full listing of rules, editor plugins, FAQs, and more, visit the main\n[JavaScript Standard Style repo](https://github.com/feross/standard).\n\n## License\n\nMIT.\n- Copyright (c) [Feross Aboukhadijeh](http://feross.org).\n- Copyright (c) [Zouhiur Chahoud](http://twitter.com/_zouhir).\n\n',
 21 silly publish   readmeFilename: 'README.md',
-21 silly publish   gitHead: '8031c42370ab6d79f8d095a4c2b11b52a8d4a537',
-21 silly publish   _id: 'eslint-config-standard-preact@0.8.0',
-21 silly publish   _shasum: '733201de070b0ba5a49b76f01104fece223f2902',
+21 silly publish   gitHead: '15e16cc2a704adc774cf843d59f2ce8f26d16e28',
+21 silly publish   _id: 'eslint-config-standard-preact@0.8.1',
+21 silly publish   _shasum: '7b2d03655db8c7a3a9ee9a2fec03421612489cfc',
 21 silly publish   _from: '.' }
 22 verbose getPublishConfig undefined
 23 silly mapToRegistry name eslint-config-standard-preact
@@ -94,29 +94,29 @@
 26 silly mapToRegistry   type: 'tag' }
 27 silly mapToRegistry uri https://registry.npmjs.org/eslint-config-standard-preact
 28 verbose publish registryBase https://registry.npmjs.org/
-29 silly publish uploading /Users/zouhir/.npm/eslint-config-standard-preact/0.8.0/package.tgz
+29 silly publish uploading /Users/zouhir/.npm/eslint-config-standard-preact/0.8.1/package.tgz
 30 verbose request uri https://registry.npmjs.org/eslint-config-standard-preact
 31 verbose request sending authorization for write operation
-32 info attempt registry request try #1 at 4:18:19 PM
+32 info attempt registry request try #1 at 4:30:39 PM
 33 verbose request using bearer token for auth
-34 verbose request id d8a51c84ad33a192
+34 verbose request id 9cb0a7791e6057a2
 35 http request PUT https://registry.npmjs.org/eslint-config-standard-preact
 36 http 403 https://registry.npmjs.org/eslint-config-standard-preact
 37 verbose headers { 'content-type': 'application/json',
 37 verbose headers   'cache-control': 'max-age=300',
 37 verbose headers   'content-length': '95',
 37 verbose headers   'accept-ranges': 'bytes',
-37 verbose headers   date: 'Thu, 12 Jan 2017 05:18:19 GMT',
+37 verbose headers   date: 'Thu, 12 Jan 2017 05:30:40 GMT',
 37 verbose headers   via: '1.1 varnish',
 37 verbose headers   connection: 'keep-alive',
 37 verbose headers   'x-served-by': 'cache-syd1620-SYD',
 37 verbose headers   'x-cache': 'MISS',
 37 verbose headers   'x-cache-hits': '0',
-37 verbose headers   'x-timer': 'S1484198299.175534,VS0,VE235',
+37 verbose headers   'x-timer': 'S1484199039.867469,VS0,VE694',
 37 verbose headers   vary: 'Accept-Encoding' }
 38 verbose request invalidating /Users/zouhir/.npm/registry.npmjs.org/eslint-config-standard-preact on PUT
 39 error publish Failed PUT 403
-40 verbose stack Error: "You cannot publish over the previously published version 0.8.0." : eslint-config-standard-preact
+40 verbose stack Error: "You cannot publish over the previously published version 0.8.1." : eslint-config-standard-preact
 40 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
 40 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
 40 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
@@ -135,7 +135,7 @@
 46 error node v7.2.1
 47 error npm  v3.10.10
 48 error code E403
-49 error "You cannot publish over the previously published version 0.8.0." : eslint-config-standard-preact
+49 error "You cannot publish over the previously published version 0.8.1." : eslint-config-standard-preact
 50 error If you need help, you may report this error at:
 50 error     <https://github.com/npm/npm/issues>
 51 verbose exit [ 1, true ]
