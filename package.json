@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-standard-preact",
-  "description": "JavaScript Standard Style React/JSX support - ESLint Shareable Config",
-  "version": "0.7.0",
+  "description": "JavaScript Standard Style Preact/JSX support - ESLint Shareable Config",
+  "version": "0.8.0",
   "author": {
     "name": "Zouhir Chahoud",
     "email": "zouhir@zouhir.org",

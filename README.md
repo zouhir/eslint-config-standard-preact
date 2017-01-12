@@ -3,6 +3,13 @@
 [![npm][npm-image]][npm-url]
 [![downloads][downloads-image]][downloads-url]
 
+[travis-image]: https://travis-ci.org/zouhir/eslint-config-standard-preact/master.svg
+[travis-url]: https://travis-ci.org/zouhir/eslint-config-standard-preact
+[npm-image]: https://img.shields.io/npm/v/eslint-config-standard-preact.svg
+[npm-url]: https://npmjs.org/package/eslint-config-standard-preact
+[downloads-image]: https://img.shields.io/npm/dm/eslint-config-standard-preact.svg
+[downloads-url]: https://npmjs.org/package/eslint-config-standard-preact
+
 #### An ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-configs) for Preact/JSX support in [JavaScript Standard Style](https://github.com/feross/standard)
 
 This module is for advanced users. You probably want to use [`standard`](https://github.com/feross/standard) instead :)
