@@ -3,7 +3,7 @@
 [![npm][npm-image]][npm-url]
 [![downloads][downloads-image]][downloads-url]
 
-[travis-image]: https://travis-ci.org/zouhir/eslint-config-standard-preact/master.svg
+[travis-image]: https://travis-ci.org/zouhir/eslint-config-standard-preact.svg?branch=master
 [travis-url]: https://travis-ci.org/zouhir/eslint-config-standard-preact
 [npm-image]: https://img.shields.io/npm/v/eslint-config-standard-preact.svg
 [npm-url]: https://npmjs.org/package/eslint-config-standard-preact
