@@ -1,4 +1,5 @@
 {
+  "parser": "babel-eslint",
   "parserOptions": {
     "ecmaVersion": 8,
     "ecmaFeatures": {
@@ -21,7 +22,6 @@
       "pragma": "h"
     }
   },
-
   "rules": {
     "react/jsx-no-bind": [2, {
       "allowArrowFunctions": true,
@@ -29,6 +29,7 @@
       "ignoreRefs": true
     }],
     "react/no-did-update-set-state": 2,
-    "react/no-unknown-property": [2, {"ignore" : ["class"]}]
+    "react/no-unknown-property": [2, {"ignore" : ["class"]}],
+    "react/react-in-jsx-scope": 2
   }
 }
