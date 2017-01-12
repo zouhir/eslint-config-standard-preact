@@ -44,7 +44,7 @@ Then, add this to your .eslintrc file:
 
 ```
 {
-  "extends": ["standard", "standard-react"]
+  "extends": ["standard", "standard-preact"]
 }
 ```
 
