@@ -1,14 +1,14 @@
 {
   "name": "eslint-config-standard-preact",
   "description": "JavaScript Standard Style Preact/JSX support - ESLint Shareable Config",
-  "version": "0.9.11",
+  "version": "1.0.0",
   "author": {
     "name": "Zouhir Chahoud",
     "email": "zouhir@zouhir.org",
     "url": "http://zouhir.org/"
   },
   "bugs": {
-    "url": ""
+    "url": "https://github.com/zouhir/eslint-config-standard-preact/issues"
   },
   "dependencies": {
     "babel-eslint": "^7.1.1",

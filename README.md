@@ -12,12 +12,6 @@
 
 #### An ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-configs) for Preact/JSX support in [JavaScript Standard Style](https://github.com/feross/standard).
 
-Preact is gaining a lot of traction and this module is a fork of [feross/eslint-config-standard-preact](https://github.com/feross/eslint-config-standard-react)
-
-This module is for advanced users. You probably want to use [`standard`](https://github.com/feross/standard) instead :)
-
-[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
-
 ## Install
 
 ```bash
@@ -34,7 +28,7 @@ official ESLint website.
 This Shareable Config adds React and JSX to the baseline JavaScript Standard Style rules
 provided in `eslint-config-standard`.
 
-Here's how to install everything you need:
+##### Here's how to install everything you need:
 
 ```bash
 npm install --save-dev eslint-config-standard eslint-config-standard-preact eslint-plugin-promise eslint-plugin-react eslint-plugin-standard
@@ -50,10 +44,33 @@ Then, add this to your .eslintrc file:
 
 *Note: We omitted the `eslint-config-` prefix since it is automatically assumed by ESLint.*
 
-You can override settings from the shareable config by adding them directly into your
-`.eslintrc` file.
+## New Linting Features
 
-### Looking for something easier than this?
+```
+  {/* class property name is now allowed in JSX as well as className */}
+  <div class='container'></div> ✅
+```
+
+```
+  export default class App extends Component {
+    handleRoute = e => { // ✅ You can assign to an ES6 class method
+      this.currentUrl = e.url;
+	}
+  }
+
+```
+
+```
+	// no need to have React linter and then this line in every file
+	/** @jsx h */ 🗑
+```
+
+## Override Settings
+
+You can override settings from the shareable config by adding them directly into your
+`.eslintrc` file. 
+
+#### Looking for something easier than this?
 
 The easiest way to use JavaScript Standard Style to check your code is to use the
 [`standard`](https://github.com/feross/standard) package. This comes with a global
@@ -77,14 +94,16 @@ let people know that your code is using the standard style.
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](https://github.com/feross/standard)
 ```
 
+
 ## Learn more
 
 For the full listing of rules, editor plugins, FAQs, and more, visit the main
 [JavaScript Standard Style repo](https://github.com/feross/standard).
 
+## Credit
+
+This module is a fork of [feross/eslint-config-standard-react](https://github.com/feross/eslint-config-standard-react)
+
 ## License
 
-MIT.
-- Copyright (c) [Feross Aboukhadijeh](http://feross.org).
-- Copyright (c) [Zouhiur Chahoud](http://twitter.com/_zouhir).
-
+MIT
