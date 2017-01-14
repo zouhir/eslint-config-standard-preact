@@ -46,23 +46,22 @@ Then, add this to your .eslintrc file:
 
 ## New Linting Features
 
-```
-  {/* class property name is now allowed in JSX as well as className */}
-  <div class='container'></div> ✅
+```js
+{/* class property name is now allowed in JSX as well as className */}
+<div class='container' /> ✅
 ```
 
-```
-  export default class App extends Component {
-    handleRoute = e => { // ✅ You can assign to an ES6 class method
-      this.currentUrl = e.url;
-	}
+```js
+export default class App extends Component {
+  handleRoute = e => { // ✅ You can assign to an ES6 class method
+    this.currentUrl = e.url;
   }
-
+}
 ```
 
-```
-	// no need to have React linter and then this line in every file
-	/** @jsx h */ 🗑
+```js
+// no need to have React linter and then this line in every file
+/** @jsx h */ 🗑
 ```
 
 ## Override Settings
