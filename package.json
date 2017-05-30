@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-standard-preact",
   "description": "JavaScript Standard Style Preact/JSX support - ESLint Shareable Config",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "author": {
     "name": "Zouhir Chahoud",
     "email": "zouhir@zouhir.org",
@@ -11,13 +11,13 @@
     "url": "https://github.com/zouhir/eslint-config-standard-preact/issues"
   },
   "dependencies": {
-    "babel-eslint": "^7.1.1",
-    "eslint-config-standard-jsx": "^3.0.0"
+    "babel-eslint": "^7.2.3",
+    "eslint-config-standard-jsx": "^4.0.1"
   },
   "devDependencies": {
-    "eslint": "^3.0.1",
-    "eslint-plugin-react": ">=2.7.1",
-    "tape": "^4.0.0"
+    "eslint": "^3.19.0",
+    "eslint-plugin-react": ">=7.0.1",
+    "tape": "^4.6.3"
   },
   "homepage": "https://github.com/zouhir/eslint-config-standard-preact",
   "keywords": [
@@ -52,7 +52,7 @@
   "main": "index.js",
   "peerDependencies": {
     "eslint": ">=3.0.0",
-    "eslint-plugin-react": ">=2.7.1"
+    "eslint-plugin-react": ">=7.0.1"
   },
   "repository": {
     "type": "git",
