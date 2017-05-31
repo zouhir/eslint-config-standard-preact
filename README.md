@@ -1,4 +1,6 @@
 # Standard [Preact](https://preactjs.com/) - ESLint Shareable Config
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/zouhir/eslint-config-standard-preact.svg)](https://greenkeeper.io/)
 [![travis][travis-image]][travis-url]
 [![npm][npm-image]][npm-url]
 [![downloads][downloads-image]][downloads-url]
