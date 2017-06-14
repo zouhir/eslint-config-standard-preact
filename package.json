@@ -15,8 +15,8 @@
     "eslint-config-standard-jsx": "^4.0.1"
   },
   "devDependencies": {
-    "eslint": "^3.19.0",
-    "eslint-plugin-react": ">=7.0.1",
+    "eslint": "^4.0.0",
+    "eslint-plugin-react": "^7.1.0",
     "tape": "^4.6.3"
   },
   "homepage": "https://github.com/zouhir/eslint-config-standard-preact",
