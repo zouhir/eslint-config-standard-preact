@@ -33,7 +33,7 @@ provided in `eslint-config-standard`.
 ##### Here's how to install everything you need:
 
 ```bash
-npm install --save-dev eslint-config-standard eslint-config-standard-preact eslint-plugin-promise eslint-plugin-react eslint-plugin-standard
+npm install --save-dev eslint-config-standard eslint-config-standard-preact eslint-plugin-promise eslint-plugin-react eslint-plugin-standard eslint-plugin-import eslint-plugin-node
 ```
 
 Then, add this to your .eslintrc file:
