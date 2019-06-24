@@ -14,7 +14,7 @@
     "babel-eslint": "^7.2.3",
     "eslint": "^4.0.0",
     "eslint-config-standard-jsx": "^4.0.2",
-    "eslint-plugin-react": "^7.1.0"
+    "eslint-plugin-react": "^7.14.1"
   },
   "devDependencies": {
     "tape": "^4.6.3"
