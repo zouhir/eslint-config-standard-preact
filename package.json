@@ -13,7 +13,7 @@
   "dependencies": {
     "babel-eslint": "^7.2.3",
     "eslint": "^4.0.0",
-    "eslint-config-standard-jsx": "^4.0.2",
+    "eslint-config-standard-jsx": "^8.1.0",
     "eslint-plugin-react": "^7.1.0"
   },
   "devDependencies": {
